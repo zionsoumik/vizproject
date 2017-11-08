@@ -3,9 +3,9 @@ from nltk.corpus import words as wn
 words=set()
 from nltk.stem import WordNetLemmatizer
 wordnet_lemmatizer = WordNetLemmatizer()
-emma=corpus.gutenberg.words('carroll-alice.txt')
+emma=corpus.gutenberg.words('melville-moby_dick.txt')
 import string
-thefile=open("char6.txt",'w')
+thefile=open("melville-moby_dick_named.txt",'w')
 invalidChars = set(string.punctuation.replace("_", ""))
 for word in emma:
     print(word)
