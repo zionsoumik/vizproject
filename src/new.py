@@ -15,3 +15,4 @@ for word in emma:
                 words.add(word)
 for item in list(words):
   thefile.write("%s\n" % item)
+
