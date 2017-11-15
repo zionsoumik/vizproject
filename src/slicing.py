@@ -1,4 +1,5 @@
 import string
+import json
 
 __author__ = 'ebc'
 #-*-coding:utf-8-*-
@@ -48,7 +49,7 @@ def text2graph(filename,slice_len,graph_dict,words_hash):
 
             if word_count==slice_len:
                 if len(word_slice)>1:
-                    print word_slice
+                    # print word_slice
                     for r in product(word_slice, word_slice):
                         r=tuple(sorted(list(r)))
                         graph_dict[r]=graph_dict.setdefault(r,0)+1
@@ -61,15 +62,44 @@ def text2graph(filename,slice_len,graph_dict,words_hash):
     return graph_dict
 
 
-words_filename="emma_named.txt"
-text_filename="emma.txt"
+words_filename="../Data/emma_named.txt"
+text_filename="../Data/emma.txt"
 slice_len=10
 graph_dict={}
 words_hash={}
 words_hash=words2dict(words_filename,words_hash)
 print "done"
-print words_hash.keys()[0]
-print words_hash.keys()[10]
+# print words_hash.keys()[0]
+# print words_hash.keys()[10]
 graph_dict=text2graph(text_filename,slice_len,graph_dict,words_hash)
-print len(graph_dict)
+# print len(graph_dict)
+# asd= {'links':[],'edges':[]}
+# for item in graph_dict.items():
+#     asd['links'].append({"source":item[0][0] , "target":item[0][1], "value": item[1]})
+names=[]
+names_dict={}
+for item in graph_dict.keys():
+    names.append(item[0])
+    names.append(item[1])
+
+names=list(set(names))
+idx=[]
+for i,k in enumerate(names):
+    idx.append((i,k))
+    names_dict[k]=i
+
+
+ofile  = open('id_name.csv', "wb")
+for (i,item) in idx:
+    ofile.write("%d,%s"%(i,item))
+    ofile.write("\n")
+ofile.close()
+
+ofile  = open('edges.csv', "wb")
+
+for item in graph_dict.items():
+    ofile.write("%d,%d,%d"%(names_dict[item[0][0]],names_dict[item[0][1]],item[1]))
+    ofile.write("\n")
+
+ofile.close()
 
