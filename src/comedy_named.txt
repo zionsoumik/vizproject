@@ -1,0 +1,20 @@
+EGEON, a merchant from Syracuse
+Solinus, DUKE of Ephesus
+ANTIPHOLUS OF SYRACUSE, a traveler in search of his mother and his brother
+DROMIO OF SYRACUSE, Antipholus of Syracuse's servant
+FIRST MERCHANT, a citizen of Ephesus
+ANTIPHOLUS OF EPHESUS, a citizen of Ephesus
+DROMIO OF EPHESUS, Antipholus of Ephesus's servant
+ADRIANA, Antipholus of Ephesus's wife
+LUCIANA, Adriana's sister
+LUCE (also called Nell), kitchen maid betrothed to Dromio of Ephesus
+MESSENGER, servant to Antipholus of Ephesus and Adriana
+ANGELO, an Ephesian goldsmith
+SECOND MERCHANT, a citizen of Ephesus to whom Angelo owes money
+BALTHASAR, an Ephesian merchant invited to dinner by Antipholus of Ephesus
+COURTESAN, hostess of Antipholus of Ephesus at dinner
+DR. PINCH, a schoolmaster, engaged as an exorcist
+OFFICER (also called Jailer), an Ephesian law officer
+LADY ABBESS (also called Emilia), head of a priory in Ephesus
+Attendants, Servants to Pinch, Headsman, Officers
+

@@ -13,10 +13,11 @@ def words2dict(filename,a_dict):
     thefile = open(filename, 'r')
     lines=thefile.readlines()
     for word in lines:
-        word=word.strip().lower()
-        a_dict[word]=a_dict.get(word,0)+1
+        #word=word.strip().lower()
+        a_dict[word[:-1]]=a_dict.get(word,0)+1
 
     thefile.close()
+    #print(a_dict)
     return a_dict
 
 # Mike is connected to mark and daniel, n times
@@ -62,12 +63,13 @@ def text2graph(filename,slice_len,graph_dict,words_hash):
     return graph_dict
 
 
-words_filename="../Data/emma_named.txt"
-text_filename="../Data/emma.txt"
+words_filename="macbeth-named.txt"
+text_filename="macbeth.txt"
 slice_len=10
 graph_dict={}
 words_hash={}
 words_hash=words2dict(words_filename,words_hash)
+print(words_hash)
 print "done"
 # print words_hash.keys()[0]
 # print words_hash.keys()[10]
@@ -78,6 +80,7 @@ graph_dict=text2graph(text_filename,slice_len,graph_dict,words_hash)
 #     asd['links'].append({"source":item[0][0] , "target":item[0][1], "value": item[1]})
 names=[]
 names_dict={}
+print(graph_dict)
 for item in graph_dict.keys():
     names.append(item[0])
     names.append(item[1])
