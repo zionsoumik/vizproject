@@ -1,0 +1,57 @@
+top_words,strongcompnum,id,weighted degree,eigencentrality,modularity_class,componentnumber,label,weighted outdegree,clustering,weighted indegree,timeset,pageranks
+king.they.lady.colors.lie.at.young.it.new.mother.,50,0,3.0,0.0,0,0,inverness,3.0,0.5,0.0,,0.0037450696414889177
+lady.my.ay.king.they.tonight.done.scene.further.known.,51,1,20.0,0.0,1,0,lords,20.0,0.4821428656578064,0.0,,0.010160003538600786
+lady.my.ay.king.they.tonight.done.scene.further.known.,52,2,3.0,0.0,1,0,canst,3.0,0.0,0.0,,0.0037051671658870373
+king.they.lady.colors.lie.at.young.it.new.mother.,54,3,113.0,0.0,0,0,macduff,113.0,0.20333333313465118,0.0,,0.0513651654468457
+lady.my.ay.king.they.tonight.done.scene.further.known.,53,4,23.0,0.0022416542100408593,1,0,fleance,22.0,0.4583333432674408,1.0,,0.01112846762663065
+king.they.lady.colors.lie.at.young.it.new.mother.,49,5,90.0,0.008112552901715343,0,0,malcolm,75.0,0.2657894790172577,15.0,,0.03932711221872459
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,55,6,11.0,0.0,2,0,old man,11.0,0.5,0.0,,0.0067506515010869565
+lady.my.ay.king.they.tonight.done.scene.further.known.,48,7,323.0,0.01942120592076472,1,0,macbeth,286.0,0.11614401638507843,37.0,,0.13598789702551087
+lady.my.ay.king.they.tonight.done.scene.further.known.,47,8,105.0,0.016817627287261473,1,0,lady macbeth,32.0,0.3285714387893677,73.0,,0.041452555208581626
+king.they.lady.colors.lie.at.young.it.new.mother.,37,9,107.0,0.03878975619311916,0,0,son,65.0,0.17311827838420868,42.0,,0.047165630987494496
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,43,10,23.0,0.02140131767618827,2,0,birnam,14.0,0.3030303120613098,9.0,,0.012913466814439504
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,36,11,9.0,0.050639138344039616,2,0,messenger,5.0,0.4047619104385376,4.0,,0.006061966261951946
+king.they.lady.colors.lie.at.young.it.new.mother.,41,12,12.0,0.019159663466147402,0,0,captain,9.0,0.3055555522441864,3.0,,0.00851509796950841
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,46,13,4.0,0.014575973077220609,2,0,first apparition,2.0,0.5,2.0,,0.004601596182282579
+lady.my.ay.king.they.tonight.done.scene.further.known.,45,14,25.0,0.021610204482395347,1,0,glamis,18.0,0.35555556416511536,7.0,,0.012601748390408705
+king.they.lady.colors.lie.at.young.it.new.mother.,35,15,61.0,0.07481153464177934,0,0,lennox,35.0,0.2785714268684387,26.0,,0.027433540710694544
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,39,17,13.0,0.019159663466147402,2,0,doctor,9.0,0.261904776096344,4.0,,0.00807827245219515
+lady.my.ay.king.they.tonight.done.scene.further.known.,38,18,8.0,0.0215688176642364,1,0,seyton,4.0,0.4166666567325592,4.0,,0.005794075606659702
+light.affair.watch.yours.about.weighty.direction.reasons.beggared.sundry.,56,19,9.0,0.0,4,0,second murderer,9.0,0.3333333432674408,0.0,,0.006633975497472344
+king.they.lady.colors.lie.at.young.it.new.mother.,33,20,39.0,0.06889332550388481,0,0,siward,19.0,0.32967033982276917,20.0,,0.020227943400907313
+king.they.lady.colors.lie.at.young.it.new.mother.,31,21,4.0,0.018406844792994877,0,0,bellona,3.0,0.5,1.0,,0.004483607151174945
+lady.my.ay.king.they.tonight.done.scene.further.known.,44,22,5.0,0.022036089274628516,1,0,sinel,3.0,0.5,2.0,,0.004583068173808818
+lady.my.ay.king.they.tonight.done.scene.further.known.,30,23,102.0,0.13759035786136736,1,0,banquo,42.0,0.2153846174478531,60.0,,0.0433465131503915
+lady.my.ay.king.they.tonight.done.scene.further.known.,26,24,74.0,0.19498313188917635,1,0,lord,18.0,0.23157894611358643,56.0,,0.033379969958483274
+king.they.lady.colors.lie.at.young.it.new.mother.,25,25,6.0,0.07372555181517507,0,0,porter,2.0,0.44999998807907104,4.0,,0.0050553799995920225
+king.they.lady.colors.lie.at.young.it.new.mother.,24,26,63.0,0.23062938162610577,0,0,ross,24.0,0.23593074083328247,39.0,,0.030768072125461548
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,42,27,5.0,0.02295640793582917,2,0,third apparition,3.0,0.5,2.0,,0.005190624233711579
+king.they.lady.colors.lie.at.young.it.new.mother.,23,28,2.0,0.067037270978745,0,0,sweno,1.0,0.5,1.0,,0.0046055509512625695
+light.affair.watch.yours.about.weighty.direction.reasons.beggared.sundry.,20,29,53.0,0.14533556366630998,4,0,murderer,28.0,0.24285714328289032,25.0,,0.027973533777042824
+lady.my.ay.king.they.tonight.done.scene.further.known.,18,30,40.0,0.18035234147715165,1,0,cawdor,13.0,0.2857142984867096,27.0,,0.019243246668754214
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,29,31,18.0,0.08923565768605063,2,0,apparition,6.0,0.2916666567325592,12.0,,0.012978791498064326
+cauldron.bubble.hail.witches.etc.show.sister.hate.cat.heath.,27,32,18.0,0.05851935024177166,3,0,third witch,13.0,0.5,5.0,,0.009375262000185389
+cauldron.bubble.hail.witches.etc.show.sister.hate.cat.heath.,17,33,34.0,0.12848470872061854,3,0,first witch,26.0,0.3928571343421936,8.0,,0.015678197908790267
+king.they.lady.colors.lie.at.young.it.new.mother.,16,34,40.0,0.22824714652856495,0,0,donalbain,6.0,0.3571428656578064,34.0,,0.018218094721223103
+cauldron.bubble.hail.witches.etc.show.sister.hate.cat.heath.,15,35,81.0,0.24188238100221127,3,0,witch,25.0,0.2747252881526947,56.0,,0.03631513128289631
+cauldron.bubble.hail.witches.etc.show.sister.hate.cat.heath.,14,36,18.0,0.12483484362305715,3,0,second witch,1.0,0.5,17.0,,0.009486464774242247
+king.they.lady.colors.lie.at.young.it.new.mother.,32,37,6.0,0.02399188977743761,0,0,young siward,0.0,0.0,6.0,,0.005276802036279505
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,28,38,20.0,0.10376239396341508,2,0,dunsinane,3.0,0.30000001192092896,17.0,,0.011721576221881143
+king.they.lady.colors.lie.at.young.it.new.mother.,13,39,14.0,0.09117298548279217,0,0,menteith,5.0,0.4444444477558136,9.0,,0.008635182237641219
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,12,40,169.0,0.6755309864410274,2,0,man,30.0,0.13865546882152557,139.0,,0.0746382994427304
+king.they.lady.colors.lie.at.young.it.new.mother.,7,41,25.0,0.23386305739664692,0,0,lady macduff,0.0,0.5,25.0,,0.01230794400391396
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,11,42,2.0,0.21754284648979966,2,0,forres,0.0,0.5,2.0,,0.0033682012342678997
+king.they.lady.colors.lie.at.young.it.new.mother.,22,43,4.0,0.08638029217584701,0,0,colme,1.0,0.25,3.0,,0.007335674584434395
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,10,44,6.0,0.21224046380450484,2,0,second apparition,0.0,0.5,6.0,,0.005561367838802786
+lady.my.ay.king.they.tonight.done.scene.further.known.,6,45,27.0,0.5008988249070193,1,0,servant,3.0,0.3333333432674408,24.0,,0.013037087742960588
+king.they.lady.colors.lie.at.young.it.new.mother.,5,46,29.0,0.5416573448183979,0,0,angus,3.0,0.34583333134651184,26.0,,0.014610286838407972
+cauldron.bubble.hail.witches.etc.show.sister.hate.cat.heath.,4,47,13.0,0.24533861825835623,3,0,hecate,1.0,0.4333333373069763,12.0,,0.0075225576351720435
+king.they.lady.colors.lie.at.young.it.new.mother.,0,48,81.0,1.0,0,0,duncan,0.0,0.261904776096344,81.0,,0.03500896786192089
+king.they.lady.colors.lie.at.young.it.new.mother.,3,49,9.0,0.2252485330223035,0,0,norweyan,0.0,0.3333333432674408,9.0,,0.006917320511343451
+light.affair.watch.yours.about.weighty.direction.reasons.beggared.sundry.,19,50,14.0,0.04409839748844411,4,0,first murderer,0.0,0.5,14.0,,0.009089975812078991
+king.they.lady.colors.lie.at.young.it.new.mother.,2,51,11.0,0.3369895049147794,0,0,caithness,0.0,0.4027777910232544,11.0,,0.007377560825773347
+light.affair.watch.yours.about.weighty.direction.reasons.beggared.sundry.,1,52,8.0,0.0725979069385779,4,0,third murderer,0.0,0.5,8.0,,0.006055726871658427
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,9,53,2.0,0.18369213398238765,2,0,shoughs,0.0,0.5,2.0,,0.003364843342499829
+king.they.lady.colors.lie.at.young.it.new.mother.,21,54,2.0,0.024687744180529415,0,0,colmekill,0.0,0.5,2.0,,0.004576803869214597
+thunder.old.till.mankind.until.patient.thought.bane.forest.never.,8,55,14.0,0.1805923139122646,2,0,gentlewoman,0.0,0.5,14.0,,0.008192788288642025
+lady.my.ay.king.they.tonight.done.scene.further.known.,40,56,2.0,0.0215688176642364,1,0,macdonwald,0.0,0.5,2.0,,0.0035925941556122255

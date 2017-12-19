@@ -1,9 +1,9 @@
-file=open("caeser.txt")
+file=open("venice.txt")
 import csv
 
 import itertools
 text=file.read()
-with open("caeser-named.txt") as f:
+with open("venice-named.txt") as f:
     text1=f.readlines()
 names = [x.strip() for x in text1]
 names_dict=[]
@@ -57,13 +57,13 @@ for edge in edges_dict:
 print(final_edge)
 
 keys = names_dict[0].keys()
-with open('id_name1.csv', 'w',newline='') as output_file:
+with open('id_name_venice.csv', 'w',newline='') as output_file:
     dict_writer = csv.DictWriter(output_file, keys)
     dict_writer.writeheader()
     dict_writer.writerows(names_dict)
 
 keys = final_edge[0].keys()
-with open('edges1.csv', 'w',newline='') as output_file:
+with open('edges_venice.csv', 'w',newline='') as output_file:
     dict_writer = csv.DictWriter(output_file, keys)
     dict_writer.writeheader()
     dict_writer.writerows(final_edge)

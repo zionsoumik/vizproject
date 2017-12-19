@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 stop = set(stopwords.words('english'))
 #s = "string. With. Punctuation?" # Sample string
 #out = s.translate(string.maketrans("",""), string.punctuation)
-file=open("caeser.txt",'r')
+file=open("venice.txt",'r')
 text=file.read()
 sentences=nltk.sent_tokenize(text)
 print(sentences)
@@ -32,7 +32,7 @@ for sent in sentences:
             named.add(pos[i][0])
 print(named)
 print(len(named))
-thefile=open("caeser-named.txt",'w')
+thefile=open("venice-named.txt",'w')
 # with open('Macbeth.txt','r') as f:
 #     for line in f:
 #         for word in line.split():
