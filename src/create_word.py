@@ -1,3 +1,7 @@
+#This code does the tf-idf generation of words for the relevant mddularity classes.
+#It takes the modulairty class into account and generates the most relevant 10
+#words for that class.
+
 import csv
 import json
 from nltk import word_tokenize
