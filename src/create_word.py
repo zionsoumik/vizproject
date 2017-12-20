@@ -38,7 +38,7 @@ for el in modularity_list:
 #modularity_list1=modularity_list[:modularity_list.index(0)]
 print(mod_list)
 doclist=[]
-
+# creates the individual documents according to modularity class
 for mod in mod_list:
     ind=0
     str1=""
@@ -81,6 +81,7 @@ for mod in mod_list:
                 #     str1=str1+ list_words[j]+" "
     doclist.append(str1)
 # Source http://stevenloria.com/finding-important-words-in-a-document-using-tf-idf/
+#creates the tfidf values
 import math
 from textblob import TextBlob as tb
 
@@ -124,6 +125,8 @@ print(list)
 #     writer.writeheader()
 #     for row in list:
 #         writer.writerow(row)
+
+#generates the json files
 for node in g["nodes"]:
     #node["attributes"]
     for i in range(0,len(tfidf_words)):
